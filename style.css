@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: grey;
+    color:white;
+    
+}
+
+.body-container{
+    border:white 1px solid;
+    width:100vw;
+    
+}
+
+.body{
+    height:80vh;
+    border:white 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.calculator-container{
+    border:1px white solid;
+}
+
+.calculator{
+    height: 20rem;
+    width:215 px;
+    border:5px white solid;
+}
+
+.calculator-display{
+    border:5px white solid;
+    background-color: #05081a;
+    border-top:20px darkblue solid;
+    border-left:10px darkblue solid;
+    border-right:10px darkblue solid;
+    border-bottom:20px darkblue solid;
+    min-height:32%;
+    width:215px;
+    color:cyan;
+}
+
+.operate-row{
+    border:1px white solid;
+    min-height: 34px;
+    width:215 px;
+    font-size:1.5rem;
+    display:flex;
+    flex-wrap:wrap;
+    word-break: break-all;
+    flex:1;
+}
+
+#num2{
+    color:red;
+}
+
+.result-row{
+    border:1px white solid; 
+    min-height:50%;
+    width:215 px;
+    display:flex;
+    justify-content: flex-end;
+    font-size:1.5rem;
+    align-items:flex-end;
+    word-break: break-all;
+    
+}
+
+.calculator-body{
+    background-color: darkblue;
+    width:100%;
+    height:68%;
+    padding-right:10px;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-top:1px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+
+
+}
+
+.row{
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    
+}
+
+.calculator-body button{
+    padding:2px;
+    font-size:1.5rem
+}
+
+
+.percent-button{
+    min-width: 40px;
+}
+
+.divisor-button{
+    min-width:40px;
+}
+.plus-button{
+    min-width: 40px;
+    flex:1;
+    max-height:78px;
+    align-self: flex-end;
+}
